@@ -12,8 +12,6 @@ inst.write('*CLS') # Clear ESR
 
 print(inst.query("*IDN?"))
 
-# while loop should be here
-
 for i in range(10):
     input("""
     ACTION:
